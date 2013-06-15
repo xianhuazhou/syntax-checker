@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+//
+// Checking and find syntax errors of your files, it supports Ruby, PHP, Perl, Lua, Python. 
+//
+// Usage: syntax-checker /path/to/check 
+//
+// Author: xianhua.zhou@gmail.com
+//
+require(require('path').join(__dirname, "..", "lib", "syntax-checker.js"));

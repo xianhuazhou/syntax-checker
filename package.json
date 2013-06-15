@@ -1,0 +1,17 @@
+{
+    "name": "syntax-checker",
+    "version": "0.0.1",
+    "description": "Checking and find syntax errors of your files recursively, it supports Ruby, PHP, Perl, Lua and Python scripts.",
+    "main": "syntax-checker.js",
+    "license": {"type" : "MIT"},
+    "repository": "git://github.com/xianhuazhou/syntax-checker.git",
+    "author": {
+        "name": "Xianhua Zhou",
+        "email": "xianhua.zhou@gmail.com"
+    },
+    "keywords": [
+        "syntax",
+        "error"
+    ],
+    "bin": {"syntax-checker" : "./bin/syntax-checker"}
+}
